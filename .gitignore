@@ -1,0 +1,38 @@
+# Build directories
+/build/
+/build-gcc/
+/cmake-build-*/
+
+# CMake generated files
+/CMakeFiles/
+/CMakeCache.txt
+/CMakeCache.txt.tmp*
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Makefile
+/compile_commands.json
+
+# Executables and binaries
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.pdb
+*.log
+*.tmp
+*.tmp*
+
+# clangd / editor cache
+/.cache/
+
+# VS Code local files
+/.vscode/
+/.vscode/settings.json
+/.vscode/tasks.json
+
+# Windows system files
+Thumbs.db
+Desktop.ini
