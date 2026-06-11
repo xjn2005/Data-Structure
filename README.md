@@ -15,6 +15,7 @@
 
 - 顺序表 `SequentialList<T>`
 - 单链表 `SinglyLinkedList<T>`
+- 双链表 `DoublyLinkedList<T>`
 - 跳表 `SkipList<Key, Value>`
 - 链式栈 `LinkedStack<T>`
 - 链式队列 `LinkedQueue<T>`
@@ -87,6 +88,7 @@ ctest --test-dir build --output-on-failure
 
 - `examples/sequential_list_demo.cpp`
 - `examples/singly_linked_list_demo.cpp`
+- `examples/doubly_linked_list_demo.cpp`
 - `examples/skip_list_demo.cpp`
 - `examples/linked_stack_demo.cpp`
 - `examples/linked_queue_demo.cpp`
@@ -103,6 +105,7 @@ ctest --test-dir build --output-on-failure
 
 - `tests/test_sequential_list.cpp`
 - `tests/test_singly_linked_list.cpp`
+- `tests/test_doubly_linked_list.cpp`
 - `tests/test_skip_list.cpp`
 - `tests/test_linked_stack.cpp`
 - `tests/test_linked_queue.cpp`
