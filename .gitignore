@@ -33,6 +33,9 @@
 /.vscode/settings.json
 /.vscode/tasks.json
 
+# Qoder local files
+/.qoder/
+
 # Windows system files
 Thumbs.db
 Desktop.ini
