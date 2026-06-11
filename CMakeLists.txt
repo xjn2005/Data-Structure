@@ -39,6 +39,15 @@ target_link_libraries(singly_linked_list_demo
         ds_core
 )
 
+add_executable(doubly_linked_list_demo
+    examples/doubly_linked_list_demo.cpp
+)
+
+target_link_libraries(doubly_linked_list_demo
+    PRIVATE
+        ds_core
+)
+
 add_executable(linked_stack_demo
     examples/linked_stack_demo.cpp
 )
@@ -172,6 +181,17 @@ target_link_libraries(test_singly_linked_list
 )
 
 add_test(NAME singly_linked_list_tests COMMAND test_singly_linked_list)
+
+add_executable(test_doubly_linked_list
+    tests/test_doubly_linked_list.cpp
+)
+
+target_link_libraries(test_doubly_linked_list
+    PRIVATE
+        ds_core
+)
+
+add_test(NAME doubly_linked_list_tests COMMAND test_doubly_linked_list)
 
 add_executable(test_linked_stack
     tests/test_linked_stack.cpp
